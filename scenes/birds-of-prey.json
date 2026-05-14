@@ -113,7 +113,7 @@
                 "selector": [
                   {
                     "type": "PolygonZSelector",
-                    "value": "POLYGONZ((-250 0 -160, 250 0 -160, 250 0 160, -250 0 160))"
+                    "value": "POLYGONZ((-250 5 -160, 250 5 -160, 250 5 160, -250 5 160))"
                   }
                 ]
               }
