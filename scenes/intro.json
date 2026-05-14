@@ -193,7 +193,7 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/1",
               "type": "Annotation",
-              "motivation": ["supplementing"],
+              "motivation": ["commenting"],
               "body": {
                 "type": "Choice",
                 "items": [
