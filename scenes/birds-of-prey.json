@@ -110,6 +110,12 @@
                 },
                 "transform": [
                   {
+                    "type": "ScaleTransform",
+                    "x": 0.1,
+                    "y": 0.1,
+                    "z": 0.1
+                  },
+                  {
                     "type": "RotateTransform",
                     "x": 0.0,
                     "y": 0.0,
