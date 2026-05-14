@@ -29,18 +29,11 @@ interface IIIFAnnotation {
   body?: IIIFBodyResource | IIIFChoice;
 }
 
-interface IIIFAnnotationPage {
-  id: string;
-  type: 'AnnotationPage';
-  items: IIIFAnnotation[];
-}
-
 interface IIIFScene {
   id: string;
   type: 'Scene';
   label?: IIIFLangMap;
   summary?: IIIFLangMap;
-  annotations?: IIIFAnnotationPage[];
 }
 
 interface IIIFManifest {
@@ -51,6 +44,21 @@ interface IIIFManifest {
 
 function getLabel(langMap?: IIIFLangMap): string {
   return langMap?.en?.[0] ?? '';
+}
+
+// Derives the sidecar URL by inserting supplementing-annotations/ after /scenes/.
+// Preserves any subdirectory structure within scenes/:
+//   .../scenes/intro.json         -> .../scenes/supplementing-annotations/intro.json
+//   .../scenes/end/outro.json     -> .../scenes/supplementing-annotations/end/outro.json
+// Returns null if /scenes/ is not found in the URL (e.g. external manifests).
+function deriveSidecarUrl(manifestUrl: string): string | null {
+  const parsed = new URL(manifestUrl);
+  const marker = '/scenes/';
+  const idx = parsed.pathname.indexOf(marker);
+  if (idx === -1) return null;
+  const afterScenes = parsed.pathname.slice(idx + marker.length);
+  parsed.pathname = parsed.pathname.slice(0, idx + marker.length) + 'supplementing-annotations/' + afterScenes;
+  return parsed.href;
 }
 
 function renderVoyager(manifestUrl: string): void {
@@ -66,14 +74,16 @@ function renderSceneInfo(scene: IIIFScene): void {
   (document.getElementById('scene-summary') as HTMLElement).textContent = getLabel(scene.summary);
 }
 
-function findChoiceItems(scene: IIIFScene): IIIFLinkingAnnotation[] {
-  for (const page of scene.annotations ?? []) {
-    for (const anno of page.items ?? []) {
-      if (anno.motivation.includes('supplementing')) {
-        const body = anno.body as IIIFChoice;
-        if (body?.type === 'Choice') return body.items;
-      }
-    }
+async function loadSidecarChoices(sidecarUrl: string): Promise<IIIFLinkingAnnotation[]> {
+  try {
+    const response = await fetch(sidecarUrl);
+    if (!response.ok) return [];
+    const anno: IIIFAnnotation = await response.json();
+    if (!anno.motivation.includes('supplementing')) return [];
+    const body = anno.body as IIIFChoice;
+    if (body?.type === 'Choice') return body.items;
+  } catch {
+    // no sidecar for this scene
   }
   return [];
 }
@@ -112,12 +122,15 @@ async function loadManifest(url: string): Promise<void> {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const manifest: IIIFManifest = await response.json();
+
     renderVoyager(url);
+
     const scene = manifest.items?.[0];
-    if (scene) {
-      renderSceneInfo(scene);
-      renderDecisions(findChoiceItems(scene));
-    }
+    if (scene) renderSceneInfo(scene);
+
+    const sidecarUrl = deriveSidecarUrl(url);
+    const choices = sidecarUrl ? await loadSidecarChoices(sidecarUrl) : [];
+    renderDecisions(choices);
   } catch (err) {
     console.error('Failed to load manifest:', err);
     alert('Failed to load manifest. Check the URL and try again.');

@@ -9,8 +9,8 @@
         "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/1",
         "type": "Annotation",
         "motivation": ["linking"],
-        "label": { "en": ["Kobayashi Maru Registry"] },
-        "summary": { "en": ["Official registry entry for the Kobayashi Maru freighter."] },
+        "label": { "en": ["Move to Rescue"] },
+        "summary": { "en": ["We're not leaving Federation citizens behind. Raise shields and program an intercept course to enter the Klingon Neutral Zone and rescue any survivors."] },
         "body": {
           "id": "https://example.org/link/1",
           "type": "Text"
