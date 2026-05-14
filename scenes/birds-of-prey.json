@@ -28,6 +28,41 @@
           "type": "AnnotationPage",
           "items": [
             {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/camera",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/camera/1",
+                "type": "PerspectiveCamera",
+                "label": { "en": ["Scene Camera"] },
+                "lookAt": {
+                  "type": "PointSelector",
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "fieldOfView": 50.0,
+                "near": 1.0,
+                "far": 1000.0
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/camera/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 20.0,
+                    "y": 30.0,
+                    "z": 150.0
+                  }
+                ]
+              }
+            },
+            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/enterprise",
               "type": "Annotation",
               "motivation": ["painting"],
