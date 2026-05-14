@@ -1,0 +1,56 @@
+{
+  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/1",
+  "type": "Annotation",
+  "motivation": ["supplementing"],
+  "body": {
+    "type": "Choice",
+    "items": [
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/1",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Kobayashi Maru Registry"] },
+        "summary": { "en": ["Official registry entry for the Kobayashi Maru freighter."] },
+        "body": {
+          "id": "https://example.org/link/1",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/2",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Klingon Neutral Zone Treaty"] },
+        "summary": { "en": ["Federation–Klingon treaty defining the boundaries of the Neutral Zone."] },
+        "body": {
+          "id": "https://example.org/link/2",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["USS Enterprise NCC-1701 Logs"] },
+        "summary": { "en": ["Captain's log entries from the Enterprise during the Kobayashi Maru incident."] },
+        "body": {
+          "id": "https://example.org/link/3",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/scene/1",
+          "type": "Scene"
+        }
+      }
+    ]
+  },
+  "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/scene/1"
+}
