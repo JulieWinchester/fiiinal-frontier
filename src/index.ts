@@ -88,6 +88,8 @@ async function loadSidecarChoices(sidecarUrl: string): Promise<IIIFLinkingAnnota
   return [];
 }
 
+const CHOOSE_LABELS = ['Engage', 'Make It So', 'Hit It'];
+
 function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
   const section = document.getElementById('decision-section') as HTMLElement;
   const container = document.getElementById('decisions') as HTMLElement;
@@ -99,8 +101,9 @@ function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
   }
 
   section.hidden = false;
-  for (const choice of choices) {
+  for (const [i, choice] of choices.entries()) {
     const url = choice.body?.id ?? '';
+    const buttonLabel = CHOOSE_LABELS[i % CHOOSE_LABELS.length];
     const card = document.createElement('div');
     card.className = 'card';
     card.style.width = '280px';
@@ -108,7 +111,7 @@ function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">${getLabel(choice.label)}</h5>
         <p class="card-text flex-grow-1">${getLabel(choice.summary)}</p>
-        <button class="btn btn-primary mt-2 choose-btn"${url ? '' : ' disabled'}>Choose</button>
+        <button class="btn btn-primary mt-2 choose-btn"${url ? '' : ' disabled'}>${buttonLabel}</button>
       </div>
     `;
     card.querySelector('.choose-btn')!.addEventListener('click', () => loadManifest(url));
