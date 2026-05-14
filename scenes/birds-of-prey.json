@@ -3,11 +3,25 @@
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey.json",
   "type": "Manifest",
   "label": { "en": ["Birds of Prey"] },
+  "structures": [
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/range/1",
+      "type": "Range",
+      "behavior": ["sequence"],
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
       "type": "Scene",
       "label": { "en": ["Enterprise vs Bird of Prey"] },
+      "backgroundColor": "#000000",
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/page/1",
@@ -18,10 +32,28 @@
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise.glb",
-                "label": { "en": ["USS Enterprise"] },
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/enterprise/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise.glb",
+                  "label": { "en": ["USS Enterprise"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.1,
+                    "y": 0.1,
+                    "z": 0.1
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 1,
+                    "y": 180,
+                    "z": 1
+                  }
+                ]
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/enterprise/target",
@@ -34,8 +66,31 @@
                   {
                     "type": "PointSelector",
                     "x": 0.0,
-                    "y": 0.0,
-                    "z": -1.0
+                    "y": 10.0,
+                    "z": 30.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/starfield",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/canvas/starfield",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1/anno/starfield/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-250 0 -160, 250 0 -160, 250 0 160, -250 0 160))"
                   }
                 ]
               }
@@ -61,11 +116,39 @@
                   {
                     "type": "PointSelector",
                     "x": 0.0,
-                    "y": 0.0,
-                    "z": 1.0
+                    "y": 10.0,
+                    "z": -30.0
                   }
                 ]
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/canvas/starfield",
+      "type": "Canvas",
+      "label": { "en": ["Starfield"] },
+      "width": 2500,
+      "height": 1600,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/canvas/starfield/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/canvas/starfield/anno/1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 2500,
+                "height": 1600
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/canvas/starfield"
             }
           ]
         }
