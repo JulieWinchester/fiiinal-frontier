@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "http://localhost:9000/scenes/birds-of-prey.json",
+  "type": "Manifest",
+  "label": { "en": ["Birds of Prey"] },
+  "items": [
+    {
+      "id": "http://localhost:9000/scenes/birds-of-prey/scene/1",
+      "type": "Scene",
+      "label": { "en": ["Enterprise vs Bird of Prey"] },
+      "items": [
+        {
+          "id": "http://localhost:9000/scenes/birds-of-prey/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:9000/scenes/birds-of-prey/scene/1/anno/enterprise",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "http://localhost:9000/assets/3d/enterprise.glb",
+                "label": { "en": ["USS Enterprise"] },
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "id": "http://localhost:9000/scenes/birds-of-prey/scene/1/anno/enterprise/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "http://localhost:9000/scenes/birds-of-prey/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -1.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "http://localhost:9000/scenes/birds-of-prey/scene/1/anno/bird-of-prey",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "http://localhost:9000/assets/3d/bird-of-prey.glb",
+                "label": { "en": ["Klingon Bird of Prey"] },
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "id": "http://localhost:9000/scenes/birds-of-prey/scene/1/anno/bird-of-prey/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "http://localhost:9000/scenes/birds-of-prey/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

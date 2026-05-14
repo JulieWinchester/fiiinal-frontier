@@ -1,0 +1,36 @@
+intro:
+  description: aaa
+  scene: intro.json
+  decisions:
+    - description: wait
+      to: waitEnd
+    - description: leave
+      to: mutinyBirdsOfPrey
+    - description: enter
+      to: birdsOfPrey
+waitEnd:
+  description: aaa
+  scene: end/wait.json
+  end: true
+birdsOrPrey:
+  description: aaa
+  scene: birds-of-prey.json
+  decisions:
+    - description: move to rescue, communicate, but attack
+      to: picardEnd
+    - description: move to retreat
+      to: retreatEnd
+    - description: ramming positions!
+      to: chekovEnd
+    - description: bring me an EVA, i'm boarding
+      to: rikerEnd
+    - description: blow up the freighter
+      to: calhounEnd
+    - description: time to negotiate
+      to: nogEnd
+    - description: hack the gibson
+      to: scottEnd
+      hidden: true
+    - description: they fear me
+      to: kirkEnd
+      hidden: true

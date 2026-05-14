@@ -1,0 +1,16 @@
+scenes:
+  intro: # USS Enterprise, Commercial freighter across the line
+    manifest: aaa
+  birdsOfPrey: # Enterprise inside line, 3 Klingon birds of prey, freighter inside line
+    manifest: aaa
+  mutinyBirdsOfPrey: # Enterprise inside line, 3 Klingon birds of prey, freighter inside line
+    # Similar to birdOfPrey except text description will be different
+  waitEnd: # Enterprise outside, freighter dead, no BoPs (science Picard?)
+  retreatEnd: # Enterprise outside, freighter and BoPs inside, Enterprise and freighter dead
+  kirkEnd: # All inside, Enterprise, 3 Klingon birds of prey (3 fleeing), freighter
+  picardEnd: # All inside, all dead
+  scottEnd: # All inside, all lit with weird light and odd angle
+  chekovEnd: # All inside, all dead
+  calhounEnd: # All inside, freighter and BoPs dead (freighter used to explode BoPs)
+  rikerEnd: # All inside, all alive, two little astronauts, RIP u died
+  nogEnd: # All inside, all with odd angle
