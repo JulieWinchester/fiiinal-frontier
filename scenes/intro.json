@@ -190,7 +190,14 @@
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/page/1",
           "type": "AnnotationPage",
           "items": [
-
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/1",
+              "type": "Annotation",
+              "motivation": ["supplementing"],
+              "body": {
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/scene/1"
+            }
           ]
         }
       ]
