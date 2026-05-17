@@ -17,6 +17,7 @@ interface IIIFLinkingAnnotation {
   id: string;
   type: 'Annotation';
   motivation: string[];
+  behavior?: string[];
   label?: IIIFLangMap;
   summary?: IIIFLangMap;
   body?: IIIFBodyResource;
@@ -115,6 +116,7 @@ function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
       </div>
     `;
     card.querySelector('.choose-btn')!.addEventListener('click', () => loadManifest(url));
+    if (choice.behavior?.includes('hidden')) card.style.display = 'none';
     container.appendChild(card);
   }
 }
