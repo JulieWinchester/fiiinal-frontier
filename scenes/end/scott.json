@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott.json",
   "type": "Manifest",
-  "label": { "en": ["Scott"] },
+  "label": {
+    "en": [
+      "Scott"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
       "type": "Scene",
-      "label": { "en": ["Glitch in the Matrix"] },
-      "summary": { "en": ["Scotty exploits a cascade failure in the simulation's physics engine. The Klingon ships multiply and invert. The simulation crashes before a result can be recorded."] },
+      "label": {
+        "en": [
+          "Glitch in the Matrix"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Scotty exploits a cascade failure in the simulation's physics engine. The Klingon ships multiply and invert. The simulation crashes before a result can be recorded."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -115,55 +141,11 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-enterprise",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/enterprise",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-enterprise/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 12.0,
-                    "z": 0.0
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/ibl",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/ibl",
-                "type": "ImageBasedLight",
-                "label": { "en": ["Image-Based Light"] },
-                "environmentMap": {
-                  "id": "https://fixtures.iiif.io/3d/polyhaven/spruit_sunrise_4k.hdr",
-                  "type": "Image",
-                  "format": "image/vnd.radiance",
-                  "profile": "equirectangular"
-                }
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                "type": "Scene"
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/canvas/starfield",
                 "type": "Canvas"
@@ -186,13 +168,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -237,13 +225,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-1/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 1"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 1"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -274,41 +268,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-1",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-1",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-1/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 12.0,
-                    "z": -75.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 2"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 2"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -345,41 +319,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-2",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-2",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-2/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -20.0,
-                    "y": 12.0,
-                    "z": -70.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 3"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 3"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -416,41 +370,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-3",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-3",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-3/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 20.0,
-                    "y": 12.0,
-                    "z": -70.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-4",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-4/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 4"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 4"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -487,41 +421,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-4",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-4",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-4/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -35.0,
-                    "y": 12.0,
-                    "z": -62.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-5",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-5/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 5"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 5"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -558,41 +472,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-5",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-5",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-5/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 35.0,
-                    "y": 12.0,
-                    "z": -62.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-6",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-6/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 6"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 6"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -629,41 +523,21 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-6",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-6",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-6/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -48.0,
-                    "y": 12.0,
-                    "z": -52.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-7",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/bird-of-prey-7/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 7"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 7"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -698,32 +572,6 @@
                   }
                 ]
               }
-            },
-            {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-7",
-              "type": "Annotation",
-              "motivation": ["painting"],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-7",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-7/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 48.0,
-                    "y": 12.0,
-                    "z": -52.0
-                  }
-                ]
-              }
             }
           ]
         }
@@ -732,7 +580,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -743,7 +595,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
