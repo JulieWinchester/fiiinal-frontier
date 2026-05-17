@@ -24,10 +24,10 @@
         "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/2",
         "type": "Annotation",
         "motivation": ["linking"],
-        "label": { "en": ["Klingon Neutral Zone Treaty"] },
-        "summary": { "en": ["Federation–Klingon treaty defining the boundaries of the Neutral Zone."] },
+        "label": { "en": ["The Risk is Too Great"] },
+        "summary": { "en": ["Entering the Neutral Zone risks war with the Klingons. Something doesn't feel right about this. We can't risk a rescue. Helm, take us away."] },
         "body": {
-          "id": "https://example.org/link/2",
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/mutiny-birds-of-prey.json",
           "type": "Text"
         },
         "target": {
@@ -39,10 +39,10 @@
         "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro/annotations/link/3",
         "type": "Annotation",
         "motivation": ["linking"],
-        "label": { "en": ["USS Enterprise NCC-1701 Logs"] },
-        "summary": { "en": ["Captain's log entries from the Enterprise during the Kobayashi Maru incident."] },
+        "label": { "en": ["What if We Wait?"] },
+        "summary": { "en": ["Any other ships within range, commander? No, it's just us? Well, what if we wait and see if anyone else shows. I'm not going in alone."] },
         "body": {
-          "id": "https://example.org/link/3",
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/wait.json",
           "type": "Text"
         },
         "target": {
