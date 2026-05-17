@@ -27,7 +27,7 @@
         "label": { "en": ["The Risk is Too Great"] },
         "summary": { "en": ["Entering the Neutral Zone risks war with the Klingons. Something doesn't feel right about this. We can't risk a rescue. Helm, take us away."] },
         "body": {
-          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/mutiny-birds-of-prey.json",
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/sulu.json",
           "type": "Text"
         },
         "target": {
