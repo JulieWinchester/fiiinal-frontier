@@ -57,22 +57,7 @@
         "label": { "en": ["Bring me a Space Suit"] },
         "summary": { "en": ["Ensign, bring me an EVA suit. Hail the Klingon General. Tell her that unless she is a cowardly petaQ, she will meet me in the cold vacuum of space for a one-on-one duel!"] },
         "body": {
-          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/chekov.json",
-          "type": "Text"
-        },
-        "target": {
-          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
-          "type": "Scene"
-        }
-      },
-      {
-        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
-        "type": "Annotation",
-        "motivation": ["linking"],
-        "label": { "en": ["The Kobayashi Maneuver"] },
-        "summary": { "en": ["The Maru is doomed, and the Klingons are using it for cover against us. But the Maru's warp core could easily become a very big bomb. Tactical, fire on that freighter."] },
-        "body": {
-          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/calhoun.json",
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker.json",
           "type": "Text"
         },
         "target": {
