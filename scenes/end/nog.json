@@ -1,0 +1,832 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog.json",
+  "type": "Manifest",
+  "label": { "en": ["Nog"] },
+  "structures": [
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/range/1",
+      "type": "Range",
+      "behavior": ["sequence"],
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+          "type": "Scene"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+      "type": "Scene",
+      "label": { "en": ["Pending Mutual Agreement"] },
+      "summary": { "en": ["Nog invokes Rule of Acquisition #1 and begins negotiating. The simulation, never programmed for a Ferengi cadet, runs out of steam waiting for a resolution that never comes."] },
+      "backgroundColor": "#000000",
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/camera",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/camera/1",
+                "type": "PerspectiveCamera",
+                "label": { "en": ["Scene Camera"] },
+                "lookAt": {
+                  "type": "PointSelector",
+                  "x": 0.0,
+                  "y": 10.0,
+                  "z": -35.0
+                },
+                "fieldOfView": 50.0,
+                "near": 1.0,
+                "far": 1000.0
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/camera/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 90.0,
+                    "y": 20.0,
+                    "z": -35.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/enterprise",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/enterprise/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
+                  "label": { "en": ["USS Enterprise"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.1,
+                    "y": 0.1,
+                    "z": 0.1
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 1,
+                    "y": 180,
+                    "z": 1
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/enterprise/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -5.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/starfield",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/canvas/starfield",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/starfield/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((250 0 -160, 250 0 160, -250 0 160, -250 0 -160))"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/kobayashi-maru",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/kobayashi-maru/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
+                  "label": { "en": ["Kobayashi Maru"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.05,
+                    "y": 0.05,
+                    "z": 0.05
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 45.0
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 45.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/kobayashi-maru/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": -80.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-1/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
+                  "label": { "en": ["Klingon Bird of Prey (Negotiating)"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": []
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-1/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -58.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-2",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-2/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
+                  "label": { "en": ["Klingon Bird of Prey (Waiting)"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 39.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-2/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": -25.0,
+                    "y": 10.0,
+                    "z": -75.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-3",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-3/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
+                  "label": { "en": ["Klingon Bird of Prey (Waiting)"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": -39.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/bop-3/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 25.0,
+                    "y": 10.0,
+                    "z": -75.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-1/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-1/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -16.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-2",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-2/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 5.0,
+                    "y": 185.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-2/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -22.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-3",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-3/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-3/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -28.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-4",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-4/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": -5.0,
+                    "y": 175.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-4/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -34.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-5",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-5/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 5.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-5/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -40.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-6",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-6/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 185.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-6/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -46.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-7",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-7/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": { "en": ["Negotiator"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": 5.0,
+                    "y": 180.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/negotiator-7/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 10.0,
+                    "z": -52.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-1",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-1/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -16.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-2",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-2",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-2/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -22.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-3",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-3",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-3/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -28.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-4",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-4",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-4/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -34.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-5",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-5",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-5/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -40.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-6",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-6",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-6/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -46.0
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-7",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/light/negotiator-7",
+                "type": "PointLight",
+                "color": "#ffaa00",
+                "intensity": 1.5
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1/anno/light-negotiator-7/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 12.0,
+                    "z": -52.0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/canvas/starfield",
+      "type": "Canvas",
+      "label": { "en": ["Starfield"] },
+      "width": 2500,
+      "height": 1600,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/canvas/starfield/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/canvas/starfield/anno/1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 2500,
+                "height": 1600
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
