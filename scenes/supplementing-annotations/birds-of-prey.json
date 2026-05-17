@@ -64,6 +64,83 @@
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
           "type": "Scene"
         }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["The Kobayashi Maneuver"] },
+        "summary": { "en": ["The Maru is doomed, and the Klingons are using it for cover against us. But the Maru's warp core could easily become a very big bomb. Tactical, fire on that freighter."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/calhoun.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["The Kobayashi Maneuver"] },
+        "summary": { "en": ["The Maru is doomed, and the Klingons are using it for cover against us. But the Maru's warp core could easily become a very big bomb. Tactical, fire on that freighter."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/calhoun.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Name Your Price"] },
+        "summary": { "en": ["We're outmatched, outgunned, and outplayed. But we still have one trick that's not in any Federation rulebook - economic negotation! Rule of Acquisition #125 says..."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "behavior": ["hidden"],
+        "label": { "en": ["Quantum Simulation Limitation"] },
+        "summary": { "en": ["Did you know they programmed this simulation without accounting for quantum harmonic counterflux in the shield arrays? Watch this, laddie."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "behavior": ["hidden"],
+        "label": { "en": ["I Don't Like To Lose"] },
+        "summary": { "en": ["I don't believe in the No-Win Scenario."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/kirk.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
       }
     ]
   },
