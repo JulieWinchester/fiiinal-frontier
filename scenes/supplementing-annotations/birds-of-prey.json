@@ -1,0 +1,71 @@
+{
+  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/1",
+  "type": "Annotation",
+  "motivation": ["supplementing"],
+  "body": {
+    "type": "Choice",
+    "items": [
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/1",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Get Us Out of Here"] },
+        "summary": { "en": ["This was a trap. Take evasive maneuvers and get us out of here! All power to rear shields, fire phasers while retreating."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/retreat.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/2",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["We Will Hold The Line"] },
+        "summary": { "en": ["Hail the Klingons, inform them we are on a Rescue Mission. Plot a targeting solution, and fire quantum torpedoes if they target us. We will not back down!"] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/picard.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Conn, Ramming Speed!"] },
+        "summary": { "en": ["We can't beat three Birds of Prey, but that doesn't mean we go down without a fight. Helm, forward full speed ahead! From hell's heart, we stab at thee!"] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/chekov.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/annotations/link/3",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Bring me a Space Suit"] },
+        "summary": { "en": ["Ensign, bring me an EVA suit. Hail the Klingon General. Tell her that unless she is a cowardly petaQ, she will meet me in the cold vacuum of space for a one-on-one duel!"] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/chekov.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1",
+          "type": "Scene"
+        }
+      }
+    ]
+  },
+  "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/birds-of-prey/scene/1"
+}
