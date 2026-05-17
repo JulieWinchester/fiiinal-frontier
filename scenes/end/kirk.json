@@ -103,7 +103,7 @@
                     "type": "PointSelector",
                     "x": 0.0,
                     "y": 10.0,
-                    "z": -25.0
+                    "z": -20.0
                   }
                 ]
               }
@@ -187,10 +187,22 @@
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                "label": { "en": ["Klingon Bird of Prey 1"] },
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/kirk/scene/1/anno/bird-of-prey/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
+                  "label": { "en": ["Klingon Bird of Prey 1"] },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                  }
+                ]
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/kirk/scene/1/anno/bird-of-prey/target",
