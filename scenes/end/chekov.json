@@ -40,7 +40,7 @@
                   "type": "PointSelector",
                   "x": 0.0,
                   "y": 10.0,
-                  "z": -65.0
+                  "z": -55.0
                 },
                 "fieldOfView": 50.0,
                 "near": 1.0,
