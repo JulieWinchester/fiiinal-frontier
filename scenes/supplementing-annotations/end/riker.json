@@ -1,0 +1,41 @@
+{
+  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/annotations/1",
+  "type": "Annotation",
+  "motivation": ["supplementing"],
+  "body": {
+    "type": "Choice",
+    "items": [
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/annotations/link/1",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Proceed to Cadet Evaluation"] },
+        "summary": { "en": ["The simulation has concluded. Proceed to your cadet evaluation."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/scene/1",
+          "type": "Scene"
+        }
+      },
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/annotations/link/2",
+        "type": "Annotation",
+        "motivation": ["linking"],
+        "label": { "en": ["Restart Simulation"] },
+        "summary": { "en": ["Return to the beginning of the Kobayashi Maru simulation."] },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/scene/1",
+          "type": "Scene"
+        }
+      }
+    ]
+  },
+  "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/riker/scene/1"
+}
