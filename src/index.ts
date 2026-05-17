@@ -141,10 +141,15 @@ async function loadManifest(url: string): Promise<void> {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('load-manifest')?.addEventListener('click', () => {
-    const url = (document.getElementById('manifest-url') as HTMLInputElement).value.trim();
+  const urlInput = document.getElementById('manifest-url') as HTMLInputElement;
+
+  const triggerLoad = () => {
+    const url = urlInput.value.trim();
     if (url) loadManifest(url);
-  });
+  };
+
+  document.getElementById('load-manifest')?.addEventListener('click', triggerLoad);
+  urlInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') triggerLoad(); });
 
   loadManifest(DEFAULT_MANIFEST_URL);
 });
