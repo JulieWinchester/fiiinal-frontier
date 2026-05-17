@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(find /Users/jmw110/code/manifestival/.github/workflows -type f 2>/dev/null)",
-      "Read(//Users/jmw110/code/manifestival/.github/workflows/**)"
-    ]
-  }
-}
