@@ -122,7 +122,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/enterprise",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-enterprise/target",
@@ -262,7 +262,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-1",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-1/target",
@@ -334,7 +334,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-2",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-2/target",
@@ -406,7 +406,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-3",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-3/target",
@@ -478,7 +478,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-4",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-4/target",
@@ -550,7 +550,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-5",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-5/target",
@@ -622,7 +622,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-6",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-6/target",
@@ -694,7 +694,7 @@
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/light/bop-7",
                 "type": "PointLight",
                 "color": "#00ff66",
-                "intensity": 2.0
+                "intensity": 1.0
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/scott/scene/1/anno/light-bop-7/target",
