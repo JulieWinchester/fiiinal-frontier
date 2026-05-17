@@ -47,6 +47,11 @@ function getLabel(langMap?: IIIFLangMap): string {
   return langMap?.en?.[0] ?? '';
 }
 
+// Maps a manifest filename to a different sidecar filename within the same directory.
+const SIDECAR_ALIASES: Record<string, string> = {
+  'sulu.json': 'birds-of-prey.json',
+};
+
 // Derives the sidecar URL by inserting supplementing-annotations/ after /scenes/.
 // Preserves any subdirectory structure within scenes/:
 //   .../scenes/intro.json         -> .../scenes/supplementing-annotations/intro.json
@@ -58,7 +63,11 @@ function deriveSidecarUrl(manifestUrl: string): string | null {
   const idx = parsed.pathname.indexOf(marker);
   if (idx === -1) return null;
   const afterScenes = parsed.pathname.slice(idx + marker.length);
-  parsed.pathname = parsed.pathname.slice(0, idx + marker.length) + 'supplementing-annotations/' + afterScenes;
+  const filename = afterScenes.split('/').pop() ?? '';
+  const resolvedAfterScenes = filename in SIDECAR_ALIASES
+    ? afterScenes.slice(0, afterScenes.lastIndexOf(filename)) + SIDECAR_ALIASES[filename]
+    : afterScenes;
+  parsed.pathname = parsed.pathname.slice(0, idx + marker.length) + 'supplementing-annotations/' + resolvedAfterScenes;
   return parsed.href;
 }
 
