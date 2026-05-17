@@ -116,7 +116,7 @@ function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
       </div>
     `;
     card.querySelector('.choose-btn')!.addEventListener('click', () => loadManifest(url));
-    if (choice.behavior?.includes('hidden')) card.style.display = 'none';
+    if (choice.behavior?.includes('hidden')) card.classList.add('d-none');
     container.appendChild(card);
   }
 }
