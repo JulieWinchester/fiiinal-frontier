@@ -154,14 +154,8 @@
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 0.0,
-                    "z": 45.0
-                  },
-                  {
-                    "type": "RotateTransform",
-                    "x": 0.0,
                     "y": 45.0,
-                    "z": 0.0
+                    "z": 45.0
                   }
                 ]
               },
@@ -194,7 +188,15 @@
                   "label": { "en": ["Explosion"] },
                   "type": "Model",
                   "format": "model/gltf-binary"
-                }
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 4.0,
+                    "y": 4.0,
+                    "z": 4.0
+                  }
+                ]
               },
               "target": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/wait/scene/1/anno/supernova/target",
