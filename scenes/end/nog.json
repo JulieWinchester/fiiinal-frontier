@@ -20,7 +20,7 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/end/nog/scene/1",
       "type": "Scene",
-      "label": { "en": ["The Negotiation Is Ongoing"] },
+      "label": { "en": ["Pending Mutual Agreement"] },
       "summary": { "en": ["Nog invokes Rule of Acquisition #1 and begins negotiating. The simulation, never programmed for a Ferengi cadet, runs out of steam waiting for a resolution that never comes."] },
       "backgroundColor": "#000000",
       "items": [
