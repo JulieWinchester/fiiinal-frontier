@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun.json",
   "type": "Manifest",
-  "label": { "en": ["Calhoun"] },
+  "label": {
+    "en": [
+      "Mackenzie Calhoun"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1",
       "type": "Scene",
-      "label": { "en": ["No Win Scenario"] },
-      "summary": { "en": ["The Enterprise torpedoes the Kobayashi Maru. The resulting explosion engulfs all three Klingon Birds of Prey. The Enterprise withdraws unscathed."] },
+      "label": {
+        "en": [
+          "Mackenzie Calhoun"
+        ]
+      },
+      "summary": {
+        "en": [
+          "You are Mackenzie Calhoun \u2014 ruthlessly pragmatic and unafraid to make the hard calls others won't. You do what the situation demands."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -111,7 +137,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/starfield",
                 "type": "Canvas"
@@ -134,13 +162,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -185,13 +219,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Kobayashi Maru Explosion"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -230,10 +270,16 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/bird-of-prey",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                "label": { "en": ["Klingon Bird of Prey 1"] },
+                "label": {
+                  "en": [
+                    "Klingon Bird of Prey 1"
+                  ]
+                },
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
@@ -257,13 +303,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-1/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Bird of Prey 1 Explosion"] },
+                  "label": {
+                    "en": [
+                      "Bird of Prey 1 Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -302,13 +354,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 2"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 2"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -341,13 +399,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Bird of Prey 2 Explosion"] },
+                  "label": {
+                    "en": [
+                      "Bird of Prey 2 Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -386,13 +450,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 3"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 3"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -425,13 +495,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/supernova-bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Bird of Prey 3 Explosion"] },
+                  "label": {
+                    "en": [
+                      "Bird of Prey 3 Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -466,6 +542,31 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/portrait",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/portrait",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1/anno/portrait/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-20.0 -0.4 25, 20.0 -0.4 25, 20.0 20.4 25, -20.0 20.4 25))"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -474,7 +575,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -485,7 +590,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
@@ -494,6 +601,40 @@
                 "height": 1600
               },
               "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/portrait",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Mackenzie Calhoun"
+        ]
+      },
+      "width": 555,
+      "height": 290,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/portrait/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/portrait/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/portraits/calhoun.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 555,
+                "height": 290
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/calhoun/canvas/portrait"
             }
           ]
         }

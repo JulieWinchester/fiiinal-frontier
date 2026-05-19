@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait.json",
   "type": "Manifest",
-  "label": { "en": ["Kobayashi Maru Destroyed"] },
+  "label": {
+    "en": [
+      "Lieutenant Picard"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1",
       "type": "Scene",
-      "label": { "en": ["The Kobayashi Maru Is Gone"] },
-      "summary": { "en": ["The Kobayashi Maru, struck by a Klingon gravitic mine, explodes with all hands. There were no survivors."] },
+      "label": {
+        "en": [
+          "Lieutenant Picard"
+        ]
+      },
+      "summary": {
+        "en": [
+          "You are Picard before the fight that changed him \u2014 cautious, hesitant, waiting for an opening that never came. The simulation ended before you could act."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -111,7 +137,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/starfield",
                 "type": "Canvas"
@@ -134,13 +162,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -179,13 +213,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/supernova",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/supernova/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Explosion"] },
+                  "label": {
+                    "en": [
+                      "Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -214,6 +254,31 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/portrait",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/portrait",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1/anno/portrait/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-15.0 -12.1 100, 15.0 -12.1 100, 15.0 12.1 100, -15.0 12.1 100))"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -222,7 +287,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -233,7 +302,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
@@ -242,6 +313,40 @@
                 "height": 1600
               },
               "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/portrait",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Lieutenant Picard"
+        ]
+      },
+      "width": 372,
+      "height": 300,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/portrait/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/portrait/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/portraits/picard_lieutenant.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 372,
+                "height": 300
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/wait/canvas/portrait"
             }
           ]
         }

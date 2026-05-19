@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk.json",
   "type": "Manifest",
-  "label": { "en": ["Kirk"] },
+  "label": {
+    "en": [
+      "James T. Kirk"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1",
       "type": "Scene",
-      "label": { "en": ["I Don't Believe in the No-Win Scenario"] },
-      "summary": { "en": ["Kirk bluffs the Klingon commander into believing he faces a legendary Federation war hero. The Birds of Prey break off and retreat. The Kobayashi Maru crew is rescued."] },
+      "label": {
+        "en": [
+          "James T. Kirk"
+        ]
+      },
+      "summary": {
+        "en": [
+          "You are James T. Kirk \u2014 bold, creative, and utterly convinced that no scenario is truly unwinnable. You don't accept the rules of the game. You change them."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -111,7 +137,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/starfield",
                 "type": "Canvas"
@@ -134,13 +162,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -185,13 +219,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 1"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 1"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -224,13 +264,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 2"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 2"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -263,13 +309,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 3"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 3"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -298,6 +350,31 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/portrait",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/portrait",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1/anno/portrait/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-11.8 -5.0 20, 11.8 -5.0 20, 11.8 25.0 20, -11.8 25.0 20))"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -306,7 +383,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -317,7 +398,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
@@ -326,6 +409,40 @@
                 "height": 1600
               },
               "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/portrait",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "James T. Kirk"
+        ]
+      },
+      "width": 300,
+      "height": 382,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/portrait/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/portrait/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/portraits/kirk.jpeg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 300,
+                "height": 382
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/kirk/canvas/portrait"
             }
           ]
         }

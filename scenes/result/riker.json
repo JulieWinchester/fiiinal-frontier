@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker.json",
   "type": "Manifest",
-  "label": { "en": ["Riker"] },
+  "label": {
+    "en": [
+      "William T. Riker"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1",
       "type": "Scene",
-      "label": { "en": ["A Matter of Honor"] },
-      "summary": { "en": ["Riker dons an EVA suit and challenges the Klingon general to single combat in open space. Both warriors fall. The duel settles nothing."] },
+      "label": {
+        "en": [
+          "William T. Riker"
+        ]
+      },
+      "summary": {
+        "en": [
+          "You are William T. Riker \u2014 bold, brave, and willing to put yourself personally on the line. When diplomacy fails, you step forward."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -111,7 +137,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/starfield",
                 "type": "Canvas"
@@ -134,13 +162,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -185,10 +219,16 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/bird-of-prey",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                "label": { "en": ["Klingon Bird of Prey 1"] },
+                "label": {
+                  "en": [
+                    "Klingon Bird of Prey 1"
+                  ]
+                },
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
@@ -212,13 +252,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 2"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 2"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -251,13 +297,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 3"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 3"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -290,13 +342,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/astronaut-riker",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/astronaut-riker/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
-                  "label": { "en": ["Riker"] },
+                  "label": {
+                    "en": [
+                      "Riker"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -335,13 +393,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/astronaut-klingon",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/astronaut-klingon/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
-                  "label": { "en": ["Klingon General"] },
+                  "label": {
+                    "en": [
+                      "Klingon General"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -380,13 +444,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/supernova-riker",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/supernova-riker/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Riker Explosion"] },
+                  "label": {
+                    "en": [
+                      "Riker Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -419,13 +489,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/supernova-klingon",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/supernova-klingon/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Klingon General Explosion"] },
+                  "label": {
+                    "en": [
+                      "Klingon General Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -454,6 +530,31 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/portrait",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/portrait",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1/anno/portrait/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-11.2 -15.0 -20, 11.2 -15.0 -20, 11.2 15.0 -20, -11.2 15.0 -20))"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -462,7 +563,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -473,7 +578,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
@@ -482,6 +589,40 @@
                 "height": 1600
               },
               "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/portrait",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "William T. Riker"
+        ]
+      },
+      "width": 448,
+      "height": 598,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/portrait/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/portrait/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/portraits/riker.jpeg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 448,
+                "height": 598
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/riker/canvas/portrait"
             }
           ]
         }
