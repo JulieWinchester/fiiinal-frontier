@@ -1,4 +1,5 @@
 const VOYAGER_BASE = 'https://smithsonian.github.io/voyager-dev/iiif/iiif_demo.html?document=';
+const MANIFESTIVAL_BASE = 'https://morphosource.github.io/manifestival/?iiif-content=';
 const DEFAULT_MANIFEST_URL = 'https://juliewinchester.github.io/fiiinal-frontier/scenes/intro.json';
 
 interface IIIFLangMap { en?: string[] }
@@ -71,6 +72,16 @@ function deriveSidecarUrl(manifestUrl: string): string | null {
   return parsed.href;
 }
 
+function getIIIFContentParam(): string | null {
+  return new URLSearchParams(window.location.search).get('iiif-content');
+}
+
+function updateIIIFContentParam(url: string): void {
+  const params = new URLSearchParams(window.location.search);
+  params.set('iiif-content', url);
+  history.replaceState(null, '', '?' + params.toString());
+}
+
 function renderVoyager(manifestUrl: string): void {
   const viewer = document.getElementById('viewer') as HTMLIFrameElement;
   viewer.src = '';
@@ -130,8 +141,25 @@ function renderDecisions(choices: IIIFLinkingAnnotation[]): void {
   }
 }
 
+function renderResourceLinks(manifestUrl: string, sidecarUrl: string | null): void {
+  const section = document.getElementById('resource-section') as HTMLElement;
+  (document.getElementById('link-manifest') as HTMLAnchorElement).href = manifestUrl;
+  const sidecarLink = document.getElementById('link-sidecar') as HTMLAnchorElement;
+  if (sidecarUrl) {
+    sidecarLink.href = sidecarUrl;
+    sidecarLink.classList.remove('disabled', 'pe-none');
+  } else {
+    sidecarLink.removeAttribute('href');
+    sidecarLink.classList.add('disabled', 'pe-none');
+  }
+  (document.getElementById('link-manifestival') as HTMLAnchorElement).href =
+    MANIFESTIVAL_BASE + encodeURIComponent(manifestUrl);
+  section.hidden = false;
+}
+
 async function loadManifest(url: string): Promise<void> {
   (document.getElementById('manifest-url') as HTMLInputElement).value = url;
+  updateIIIFContentParam(url);
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -145,6 +173,7 @@ async function loadManifest(url: string): Promise<void> {
     const sidecarUrl = deriveSidecarUrl(url);
     const choices = sidecarUrl ? await loadSidecarChoices(sidecarUrl) : [];
     renderDecisions(choices);
+    renderResourceLinks(url, sidecarUrl);
   } catch (err) {
     console.error('Failed to load manifest:', err);
     alert('Failed to load manifest. Check the URL and try again.');
@@ -162,5 +191,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('load-manifest')?.addEventListener('click', triggerLoad);
   urlInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') triggerLoad(); });
 
-  loadManifest(DEFAULT_MANIFEST_URL);
+  loadManifest(getIIIFContentParam() ?? DEFAULT_MANIFEST_URL);
 });

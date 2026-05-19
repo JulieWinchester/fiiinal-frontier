@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+  <head>
+    <title>Kobayashi Maru — Scene Trek: The Fiiinal Frontier</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid p-4">
+      <div id="debug-controls" class="d-none d-flex gap-2 mb-3">
+        <input type="text" id="manifest-url" class="form-control" placeholder="IIIF Manifest URL">
+        <button id="load-manifest" class="btn btn-primary text-nowrap">Load Manifest</button>
+      </div>
+
+      <h2 class="h4 mb-3">Tactical View</h2>
+
+      <iframe id="viewer" class="w-100 border-0 mb-3" style="height: 600px;"></iframe>
+
+      <div id="scene-info" class="mb-4">
+        <h3 id="scene-label" class="h5 mb-1"></h3>
+        <p id="scene-summary" class="text-secondary mb-0"></p>
+      </div>
+
+      <div id="decision-section" hidden>
+        <h2 class="h4 mb-3">Your Orders, Captain?</h2>
+        <div id="decisions" class="d-flex gap-3 flex-wrap mb-5"></div>
+      </div>
+
+      <div id="resource-section" class="mt-4 mb-2" hidden>
+        <div class="d-flex gap-2 flex-wrap">
+          <a id="link-manifest" href="#" target="_blank" rel="noopener"
+            class="btn btn-sm btn-outline-secondary">View IIIF Scene Manifest</a>
+          <a id="link-sidecar" href="#" target="_blank" rel="noopener"
+            class="btn btn-sm btn-outline-secondary">View IIIF Decisions Manifest</a>
+          <a id="link-manifestival" href="#" target="_blank" rel="noopener"
+            class="btn btn-sm btn-outline-secondary">View Scene in Multiple Viewers</a>
+        </div>
+      </div>
+
+      <p class="mt-4 mb-4">
+        <a href="index.html" class="text-secondary text-decoration-none small">
+          ← Scene Trek: The Fiiinal Frontier
+        </a>
+      </p>
+
+      <div id="faq-section" class="mt-2">
+        <div class="accordion" id="faq-outer">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-content"
+                aria-expanded="false" aria-controls="faq-content">
+                Frequently Asked Questions
+              </button>
+            </h2>
+            <div id="faq-content" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <div class="accordion accordion-flush" id="faq-accordion">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">
+                What is the Kobayashi Maru?
+              </button>
+            </h3>
+            <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body text-secondary">
+                The Kobayashi Maru is a Starfleet training simulation in which cadets are placed
+                in command of the USS Enterprise and tasked with responding to a distress call from
+                the civilian transport <em>Kobayashi Maru</em>, stranded in the Klingon Neutral Zone.
+                The simulation is deliberately designed to have no winning outcome — the purpose is
+                not to see whether a cadet can succeed, but to observe how they respond to an
+                unwinnable scenario.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">
+                Is there a correct answer?
+              </button>
+            </h3>
+            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body text-secondary">
+                No. The simulation is unwinnable by design. Each decision path reflects a different
+                set of values and priorities, but none produces a clean victory. What matters is the
+                approach you take, not the outcome you achieve.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
+                What does my result tell me?
+              </button>
+            </h3>
+            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body text-secondary">
+                Your result matches you with a Star Trek character whose method of confronting
+                impossible problems resembles the choices you made in the simulation. Whether you
+                fought, negotiated, retreated, or found an unexpected way out, your instincts align
+                you with a particular officer's style of leadership and values.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                Can I retake the simulation?
+              </button>
+            </h3>
+            <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body text-secondary">
+                Yes. Use the "Restart Simulation" option on the result screen to begin again, or
+                return to the <a href="index.html">home page</a> to start fresh.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                What technology powers this experience?
+              </button>
+            </h3>
+            <div id="faq-5" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+              <div class="accordion-body text-secondary">
+                The 3D tactical display is powered by the Smithsonian Voyager, a WebGL-based
+                renderer for three-dimensional content. Scenes are described using the
+                <a href="https://iiif.io/" target="_blank" rel="noopener">IIIF Presentation API 4</a>,
+                an open standard traditionally used for 2D digitized collections. This project
+                explores how IIIF can be extended to support interactive 3D storytelling.
+              </div>
+            </div>
+          </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

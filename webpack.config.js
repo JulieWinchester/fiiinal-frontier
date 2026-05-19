@@ -25,6 +25,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html.ejs',
+      filename: 'index.html',
+      inject: false,
+    }),
+    new HtmlWebpackPlugin({
+      template: './public/kobayashi-maru.html.ejs',
+      filename: 'kobayashi-maru.html',
     }),
     new CopyWebpackPlugin({
       patterns: [
