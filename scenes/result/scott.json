@@ -141,34 +141,6 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-enterprise",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/enterprise",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-enterprise/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 12.0,
-                    "z": 0.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/starfield",
               "type": "Annotation",
               "motivation": [
@@ -296,34 +268,6 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-1",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-1",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-1/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.0,
-                    "y": 12.0,
-                    "z": -75.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
               "motivation": [
@@ -369,34 +313,6 @@
                     "type": "PointSelector",
                     "x": -20.0,
                     "y": 10.0,
-                    "z": -70.0
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-2",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-2",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-2/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -20.0,
-                    "y": 12.0,
                     "z": -70.0
                   }
                 ]
@@ -454,34 +370,6 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-3",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-3",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-3/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 20.0,
-                    "y": 12.0,
-                    "z": -70.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/bird-of-prey-4",
               "type": "Annotation",
               "motivation": [
@@ -527,34 +415,6 @@
                     "type": "PointSelector",
                     "x": -35.0,
                     "y": 10.0,
-                    "z": -62.0
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-4",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-4",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-4/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -35.0,
-                    "y": 12.0,
                     "z": -62.0
                   }
                 ]
@@ -612,34 +472,6 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-5",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-5",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-5/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 35.0,
-                    "y": 12.0,
-                    "z": -62.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/bird-of-prey-6",
               "type": "Annotation",
               "motivation": [
@@ -685,34 +517,6 @@
                     "type": "PointSelector",
                     "x": -48.0,
                     "y": 10.0,
-                    "z": -52.0
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-6",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-6",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-6/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": -48.0,
-                    "y": 12.0,
                     "z": -52.0
                   }
                 ]
@@ -770,34 +574,6 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-7",
-              "type": "Annotation",
-              "motivation": [
-                "painting"
-              ],
-              "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/light/bop-7",
-                "type": "PointLight",
-                "color": "#00ff66"
-              },
-              "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/light-bop-7/target",
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1",
-                  "type": "Scene"
-                },
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 48.0,
-                    "y": 12.0,
-                    "z": -52.0
-                  }
-                ]
-              }
-            },
-            {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/scott/scene/1/anno/portrait",
               "type": "Annotation",
               "motivation": [
@@ -817,7 +593,7 @@
                 "selector": [
                   {
                     "type": "PolygonZSelector",
-                    "value": "POLYGONZ((-20.0 25.0 20, -20.0 -5.0 20, 20.0 -5.0 20, 20.0 25.0 20))"
+                    "value": "POLYGONZ((-20.0 45.0 20, -20.0 15.0 20, 20.0 15.0 20, 20.0 45.0 20))"
                   }
                 ]
               }
