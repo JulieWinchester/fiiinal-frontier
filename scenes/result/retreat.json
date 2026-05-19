@@ -54,7 +54,7 @@
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
-                  "y": 10.0,
+                  "y": 32.5,
                   "z": 30.0
                 },
                 "fieldOfView": 50.0,
@@ -73,7 +73,7 @@
                     "type": "PointSelector",
                     "x": 0.0,
                     "y": 20.0,
-                    "z": 60.0
+                    "z": 120.0
                   }
                 ]
               }
