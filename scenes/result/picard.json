@@ -2,12 +2,18 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard.json",
   "type": "Manifest",
-  "label": { "en": ["Picard"] },
+  "label": {
+    "en": [
+      "Jean-Luc Picard"
+    ]
+  },
   "structures": [
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/range/1",
       "type": "Range",
-      "behavior": ["sequence"],
+      "behavior": [
+        "sequence"
+      ],
       "items": [
         {
           "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1",
@@ -20,8 +26,16 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1",
       "type": "Scene",
-      "label": { "en": ["Pyrrhic Victory"] },
-      "summary": { "en": ["The Enterprise engages the Klingon Birds of Prey, destroying two before being overwhelmed. The Enterprise is lost with all hands."] },
+      "label": {
+        "en": [
+          "Jean-Luc Picard"
+        ]
+      },
+      "summary": {
+        "en": [
+          "You are Jean-Luc Picard \u2014 principled, resolute, and unwilling to sacrifice your integrity even in an unwinnable situation. You fight with everything you have, and accept what comes."
+        ]
+      },
       "backgroundColor": "#000000",
       "items": [
         {
@@ -31,11 +45,17 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/camera",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/camera/1",
                 "type": "PerspectiveCamera",
-                "label": { "en": ["Scene Camera"] },
+                "label": {
+                  "en": [
+                    "Scene Camera"
+                  ]
+                },
                 "lookAt": {
                   "type": "PointSelector",
                   "x": 0.0,
@@ -66,13 +86,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/enterprise-optimized.glb",
-                  "label": { "en": ["USS Enterprise"] },
+                  "label": {
+                    "en": [
+                      "USS Enterprise"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -111,13 +137,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-enterprise",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-enterprise/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Enterprise Explosion"] },
+                  "label": {
+                    "en": [
+                      "Enterprise Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -156,7 +188,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/starfield",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/starfield",
                 "type": "Canvas"
@@ -179,13 +213,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/kobayashi-maru-optimized.glb",
-                  "label": { "en": ["Kobayashi Maru"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -230,13 +270,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-kobayashi-maru",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-kobayashi-maru/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Kobayashi Maru Explosion"] },
+                  "label": {
+                    "en": [
+                      "Kobayashi Maru Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -269,10 +315,16 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/bird-of-prey",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                "label": { "en": ["Klingon Bird of Prey 1"] },
+                "label": {
+                  "en": [
+                    "Klingon Bird of Prey 1"
+                  ]
+                },
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
@@ -296,13 +348,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-bird-of-prey-1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-bird-of-prey-1/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Bird of Prey 1 Explosion"] },
+                  "label": {
+                    "en": [
+                      "Bird of Prey 1 Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -341,13 +399,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 2"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 2"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -380,13 +444,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-bird-of-prey-2",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/supernova-bird-of-prey-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/supernova.glb",
-                  "label": { "en": ["Bird of Prey 2 Explosion"] },
+                  "label": {
+                    "en": [
+                      "Bird of Prey 2 Explosion"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -425,13 +495,19 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/bird-of-prey-3",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/bird-of-prey-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/bird-of-prey.glb",
-                  "label": { "en": ["Klingon Bird of Prey 3"] },
+                  "label": {
+                    "en": [
+                      "Klingon Bird of Prey 3"
+                    ]
+                  },
                   "type": "Model",
                   "format": "model/gltf-binary"
                 },
@@ -460,6 +536,31 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/portrait",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/portrait",
+                "type": "Canvas"
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1/anno/portrait/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PolygonZSelector",
+                    "value": "POLYGONZ((-9.7 -5.0 20, 9.7 -5.0 20, 9.7 25.0 20, -9.7 25.0 20))"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -468,7 +569,11 @@
     {
       "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/starfield",
       "type": "Canvas",
-      "label": { "en": ["Starfield"] },
+      "label": {
+        "en": [
+          "Starfield"
+        ]
+      },
       "width": 2500,
       "height": 1600,
       "items": [
@@ -479,7 +584,9 @@
             {
               "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/starfield/anno/1",
               "type": "Annotation",
-              "motivation": ["painting"],
+              "motivation": [
+                "painting"
+              ],
               "body": {
                 "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/starfield.jpg",
                 "type": "Image",
@@ -488,6 +595,40 @@
                 "height": 1600
               },
               "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/starfield"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/portrait",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Jean-Luc Picard"
+        ]
+      },
+      "width": 756,
+      "height": 1166,
+      "items": [
+        {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/portrait/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/portrait/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/images/portraits/picard.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 756,
+                "height": 1166
+              },
+              "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/canvas/portrait"
             }
           ]
         }
