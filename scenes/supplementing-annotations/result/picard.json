@@ -1,0 +1,38 @@
+{
+  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/annotations/1",
+  "type": "Annotation",
+  "motivation": [
+    "supplementing"
+  ],
+  "body": {
+    "type": "Choice",
+    "items": [
+      {
+        "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/annotations/link/1",
+        "type": "Annotation",
+        "motivation": [
+          "linking"
+        ],
+        "label": {
+          "en": [
+            "Restart Simulation"
+          ]
+        },
+        "summary": {
+          "en": [
+            "Return to the beginning of the Kobayashi Maru simulation."
+          ]
+        },
+        "body": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/intro.json",
+          "type": "Text"
+        },
+        "target": {
+          "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1",
+          "type": "Scene"
+        }
+      }
+    ]
+  },
+  "target": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/picard/scene/1"
+}
