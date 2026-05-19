@@ -345,13 +345,13 @@
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-1",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-1",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-1/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-1/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -373,13 +373,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 180.0,
+                    "y": 270.0,
                     "z": 0.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-1/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-1/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -388,21 +388,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": 5.0,
                     "y": 10.0,
-                    "z": -16.0
+                    "z": -17
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-2",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-2",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-2/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-2/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -424,13 +424,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 5.0,
-                    "y": 185.0,
+                    "y": 268.0,
                     "z": 0.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-2/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-2/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -439,21 +439,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": 5.0,
                     "y": 10.0,
-                    "z": -22.0
+                    "z": -25
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-3",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-3",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-3/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -475,13 +475,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 180.0,
-                    "z": 0.0
+                    "y": 272.0,
+                    "z": 3.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-3/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-3/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -490,21 +490,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": 5.0,
                     "y": 10.0,
-                    "z": -28.0
+                    "z": -33
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-4",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-4",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-4/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-4/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -526,13 +526,13 @@
                   {
                     "type": "RotateTransform",
                     "x": -5.0,
-                    "y": 175.0,
+                    "y": 270.0,
                     "z": 0.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-4/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-a-4/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -541,21 +541,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": 5.0,
                     "y": 10.0,
-                    "z": -34.0
+                    "z": -41
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-5",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-1",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-5/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-1/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -577,13 +577,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 180.0,
-                    "z": 5.0
+                    "y": 90.0,
+                    "z": 0.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-5/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-1/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -592,21 +592,72 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": -5.0,
                     "y": 10.0,
-                    "z": -40.0
+                    "z": -17
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-6",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-2",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-6/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-2/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
+                  "label": {
+                    "en": [
+                      "Negotiator"
+                    ]
+                  },
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.2,
+                    "y": 0.2,
+                    "z": 0.2
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": -5.0,
+                    "y": 92.0,
+                    "z": 0.0
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-2/target",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": -5.0,
+                    "y": 10.0,
+                    "z": -25
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-3",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-3/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -628,13 +679,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 0.0,
-                    "y": 185.0,
-                    "z": 0.0
+                    "y": 88.0,
+                    "z": -3.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-6/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-3/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -643,21 +694,21 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": -5.0,
                     "y": 10.0,
-                    "z": -46.0
+                    "z": -33
                   }
                 ]
               }
             },
             {
-              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-7",
+              "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-4",
               "type": "Annotation",
               "motivation": [
                 "painting"
               ],
               "body": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-7/body",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-4/body",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/assets/3d/astronaut.glb",
@@ -679,13 +730,13 @@
                   {
                     "type": "RotateTransform",
                     "x": 5.0,
-                    "y": 180.0,
+                    "y": 90.0,
                     "z": 0.0
                   }
                 ]
               },
               "target": {
-                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/negotiator-7/target",
+                "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1/anno/neg-b-4/target",
                 "type": "SpecificResource",
                 "source": {
                   "id": "https://juliewinchester.github.io/fiiinal-frontier/scenes/result/nog/scene/1",
@@ -694,9 +745,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.0,
+                    "x": -5.0,
                     "y": 10.0,
-                    "z": -52.0
+                    "z": -41
                   }
                 ]
               }
